@@ -1,4 +1,5 @@
-import 'package:design_patterns/widgets/widget_1_factory_design_pattern.dart';
+import 'package:design_patterns/widgets/abstract_factory_design/widget_abstract_factory_design.dart';
+import 'package:design_patterns/widgets/factory_design/widget_factory_design_pattern.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -24,7 +25,7 @@ class _DesignPatternsAppState extends State<DesignPatternsApp> {
         title: const Text("Design Patterns"),
       ),
 
-      body: const FactoryDesignPatternWidget()
+      body: const AbstractFactoryDesign()
     );
   }
 }

@@ -1,5 +1,5 @@
-import 'package:design_patterns/creational/1_factory_design/1_factory_design_pattern.dart';
-import 'package:design_patterns/creational/1_factory_design/1_factory_platform_button.dart';
+import 'package:design_patterns/creational/1_factory_design/factory_design_pattern.dart';
+import 'package:design_patterns/creational/1_factory_design/factory_platform_button.dart';
 import 'package:flutter/material.dart';
 
 class FactoryDesignPatternWidget extends StatefulWidget {
